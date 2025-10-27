@@ -11,6 +11,6 @@ Esse é um projeto de uma página apresentando um cardapio digital de uma lancho
 ## 🖼️ Projeto
 <p align="center">
   <img width="1821" height="961" alt="image" src="https://github.com/user-attachments/assets/5076c596-0b1e-40ed-963f-1167e41864e0" />
-  <a href="https://brunosts94.github.io/Projetos-React-Portifolio/cardapio-digital">Visualize o Site aqui
+  <a href="https://brunosts94.github.io/Projetos-com-Build/cardapio-digital">Visualize o Site aqui
 </p>
 
