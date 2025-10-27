@@ -12,7 +12,7 @@ Esse é um projeto de consulta de previsão do tempo, onde o usuario digita a lo
 ## 🖼️ Projeto
 <p align="center">
   <img src="./src/assets/background.png" width="100%"/>
-  <a href="https://brunosts94.github.io/Projetos-React-Portifolio/previsao-do-tempo">Visualize o Site aqui
+  <a href="https://brunosts94.github.io/Projetos-Com-Build/previsao-do-tempo">Visualize o Site aqui
 </p>
 
 
