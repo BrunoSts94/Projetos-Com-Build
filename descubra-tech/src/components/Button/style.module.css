@@ -1,0 +1,13 @@
+.container{
+    height: 2.87rem;
+    border-radius: 0.43rem;
+
+    background-color: #cf2895;
+    border: 2px solid #cf2895;
+    color: #ebebfc;
+
+    padding: 0 0.87rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
