@@ -11,7 +11,8 @@ Esse é um projeto de consulta de previsão do tempo, onde o usuario digita a lo
 - Consumo de API
 ## 🖼️ Projeto
 <p align="center">
-  
+  <img width="1843" height="913" alt="image" src="https://github.com/user-attachments/assets/74a2fd61-acec-4b62-b1e4-9776da2ed09d" />
+
   <a href="https://brunosts94.github.io/Projetos-Com-Build/descubra-tech">Visualize o Site aqui
 </p>
 
