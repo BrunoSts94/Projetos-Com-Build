@@ -1,0 +1,28 @@
+.container-card-feedback-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    width: 900px;
+    height: 300px;
+
+    background-color: #FFF1F2;
+    border-radius: 2rem;
+}
+
+.container-card-feedback-infos p{
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.container-card-feedback-infos h4{
+    font-size: 1.1rem;
+}
+
+.container-card-feedback-infos span{
+    font-size: 0.9rem;
+    color: #ff2b60;
+}

@@ -1,6 +1,5 @@
 import { Element } from 'react-scroll'
 //css
-import './App.css'
 import './global.css'
 
 //components
@@ -9,6 +8,9 @@ import { SectionPrincipal } from './assets/components/Sections/SectionPrincipal'
 import { SectionServices } from './assets/components/Sections/sectionServices'
 import { SectionGallery } from './assets/components/Sections/sectionGallery'
 import { SectionFeedback } from './assets/components/Sections/SectionFeedback'
+import { SectionAbout } from './assets/components/Sections/SectionAbout'
+import { SectionContact } from './assets/components/Sections/SectionContact'
+import { Baseboard } from './assets/components/Baseboard'
 
 function App() {
   
@@ -30,6 +32,16 @@ function App() {
       </Element>
 
       <SectionFeedback/>
+
+      <Element name='about'>
+        <SectionAbout/>
+      </Element>
+
+      <Element name='contact'>
+        <SectionContact/>
+      </Element>
+
+      <Baseboard/>
 
 
     </div>

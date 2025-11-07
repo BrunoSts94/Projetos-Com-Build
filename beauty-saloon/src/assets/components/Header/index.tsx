@@ -41,16 +41,35 @@ export function Header(){
                             smooth={true}
                             duration={500}
                             spy={true}
-                            offset={-60}
                             activeClass='active'
                             >
                                 Galeria
                             </Link>
                         </li>
 
-                        <li>Sobre</li>
+                        <li>
+                            <Link
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass='active'
+                            >
+                                Sobre
+                            </Link>
+                        </li>
 
-                        <li>Contato</li>
+                        <li>
+                            <Link
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass='active'
+                            >
+                                Contato
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
 
