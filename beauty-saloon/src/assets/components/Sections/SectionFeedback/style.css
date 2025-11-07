@@ -1,0 +1,27 @@
+.container-section-feedback{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #474747;
+}
+
+.container-feedback-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-feedback-texts h2{
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+
+.container-feedback-texts p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}

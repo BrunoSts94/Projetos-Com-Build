@@ -1,0 +1,16 @@
+.btn-padrao{
+    font-size: 1rem;
+    background-color: #ff2b60;
+    color: #faf7f8d7;
+    padding: 1.2rem;
+    border-radius: 1.70rem;
+    border: none;
+    transition: 0.8;
+    text-align: center;
+}
+
+.btn-padrao:hover{
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.363);
+    transform: scale(1.1);
+}

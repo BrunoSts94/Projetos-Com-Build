@@ -1,0 +1,54 @@
+.header{
+    position: fixed;
+    color: #474747;
+    padding: 25px;
+    width: 100%;
+    background-color: #faf7f8d5;
+    z-index: 1;
+}
+
+.header h2, p{
+    font-weight: 300;
+    color: #474747;
+}
+
+.container-sessoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15rem;
+}
+
+.active {
+  color: #ff2b60;
+  font-weight: bold;
+}
+
+.sessao-nome{
+    cursor: pointer;
+}
+
+.sessao-nome p{
+    font-size: 0.8rem;
+}
+
+.lista-opcoes{
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.lista-opcoes li{
+    transition: 0.5s;
+    list-style: none
+}
+
+.lista-opcoes li:hover{
+    color: #ff2b60;
+    transform: scale(1.1);
+}
+
+.sessao-opcoes p{
+    font-size: 1.2rem;
+}
