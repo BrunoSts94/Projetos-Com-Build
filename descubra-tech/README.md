@@ -1,17 +1,17 @@
 ## 📋 Descubra tech
-Projeto pessoal para estudo e melhor compreensão sobre React
+Projeto pessoal para estudo e melhor compreensão sobre React hooks e uso de tipagem com typescript
 ## 🧐 Sobre
-Esse é um projeto de consulta de previsão do tempo, onde o usuario digita a localização e através de uma requisição de API, obtemos o clima da região solicitada.
+Famoso jogo de descobrir a palavra oculta através de tentativas citando letras.
 ## 🤖🛠️ Tecnologias e ferramentas utilizadas
 - HTML5
 - CSS3
-- Javascript
+- Typescript
 - React
 - Node js
-- Consumo de API
 ## 🖼️ Projeto
 <p align="center">
-  
+  <img width="1843" height="913" alt="image" src="https://github.com/user-attachments/assets/74a2fd61-acec-4b62-b1e4-9776da2ed09d" />
+
   <a href="https://brunosts94.github.io/Projetos-Com-Build/descubra-tech">Visualize o Site aqui
 </p>
 
