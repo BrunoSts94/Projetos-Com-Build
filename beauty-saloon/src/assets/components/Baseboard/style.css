@@ -1,0 +1,55 @@
+footer{
+    background-color: #101828;
+    padding: 100px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sessao-nome h2, p{
+    font-weight: 300;
+    color:#c0c0c0;
+
+}
+
+.sessao-nome p{
+    font-size: 0.8rem;
+}
+
+.container-footer-principal{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color:#c0c0c0;
+}
+
+.first-footer-container{
+    background-color: bisque;
+    width: 40%;
+}
+
+.second-footer-container{
+   background-color: rgb(50, 37, 165); 
+   width: 20%;
+}
+
+.third-footer-container{
+    width: 20%;
+    background-color: rgb(27, 128, 128);
+}
+
+.footer-final-texts{
+    width: 80%;
+    border-top: 1px solid #c0c0c0;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-final-texts p{
+    color: #c0c0c0;
+    font-size: 0.9rem;
+    font-weight: 100;
+}

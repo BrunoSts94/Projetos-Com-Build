@@ -1,0 +1,71 @@
+.section-about{
+    background-color: #FFF1F2;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-about{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 3rem;
+}
+
+.container-section-about-texts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-section-about-texts h2{
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #2c2c2c;
+}
+
+.container-section-about-texts p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #474747
+}
+
+.section-about-aditional-infos{
+    display: flex;
+}
+
+.info-years, .info-clients{
+    width: 50%;
+    text-align: center;
+}
+
+.section-about-aditional-infos h4{
+    color: #FF2B60;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.section-about-aditional-infos p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn-about-contact{
+    width: 9rem;
+}
+
+.container-section-about-images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 15px;
+}
+
+.container-section-about-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.4rem;
+}
