@@ -1,0 +1,31 @@
+.section-card-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.section-card-contact img{
+    padding: 8px;
+    height: 3rem;
+    background-color: #ff2b60;
+    border-radius: 40%;
+    border: none;
+}
+
+.section-card-contact div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: black;
+}
+
+.section-card-contact h4{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section-card-contact p{
+    color: black;
+    font-size: 0.8rem;
+}

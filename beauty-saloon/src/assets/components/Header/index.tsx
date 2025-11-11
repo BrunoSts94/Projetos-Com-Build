@@ -13,7 +13,7 @@ export function Header(){
                 duration={500} 
                 offset={-60} 
                 activeClass="ativo">
-                    <div className='sessao-nome'>
+                    <div className='sessao-nome-header'>
                         <h2>Thai Estudio</h2>
                         <p>BEAUTY SALON</p>
                     </div>                            

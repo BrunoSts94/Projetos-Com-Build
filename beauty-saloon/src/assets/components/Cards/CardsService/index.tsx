@@ -6,7 +6,7 @@ type Props = {
     description: string
     price: string
     imgService1: string
-}
+} 
 
 export function CardService({ serviceTittle, subtittle, description, price, imgService1}: Props){
     return (

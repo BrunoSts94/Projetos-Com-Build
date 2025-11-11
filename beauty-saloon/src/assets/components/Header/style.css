@@ -24,12 +24,15 @@
   font-weight: bold;
 }
 
-.sessao-nome{
+.sessao-nome-header{
     cursor: pointer;
+    color: #474747;
 }
 
-.sessao-nome p{
+.sessao-nome-header p{
     font-size: 0.8rem;
+    color: #474747;
+
 }
 
 .lista-opcoes{

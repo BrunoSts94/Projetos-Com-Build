@@ -1,17 +1,22 @@
 import './style.css'
+import faceIcon from '../../img/face-icon.svg'
+import instaIcon from '../../img/insta-icon.svg'
+import linkeIcon from '../../img/linkedin-icon.svg'
 
 export function Baseboard(){
     return(
         <footer>
             <div className='container-footer-principal'>
                 <div className='first-footer-container'>
-                    <div className='sessao-nome'>
+                    <div className='sessao-nome-footer'>
                         <h2>Thai Estudio</h2>
                         <p>BEAUTY SALON</p>
                     </div>
-                    <p>Seu destino privilegiado para tratamentos de beleza avançados. Experimente a combinação perfeita de luxo, experiência e tecnologia de ponta.</p>
+                    <p className='text-footer'>Seu destino privilegiado para tratamentos de beleza avançados. Experimente a combinação perfeita de luxo, experiência e tecnologia de ponta.</p>
                     <div className='container-social'>
-                        <button></button>
+                        <button><img src={ faceIcon } alt="logo facebook" /></button>
+                        <button><img src={ instaIcon } alt="logo instagram" /></button>
+                        <button><img src={ linkeIcon } alt="logo linkedin" /></button>
                     </div>
                 </div>
 
