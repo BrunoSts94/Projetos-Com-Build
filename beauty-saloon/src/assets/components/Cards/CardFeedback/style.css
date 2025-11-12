@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 4rem;
-    width: 900px;
-    height: 300px;
+    width: auto;
+    height: auto;
 
     background-color: #FFF1F2;
     border-radius: 2rem;

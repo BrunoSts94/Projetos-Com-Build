@@ -1,4 +1,6 @@
 import './style.css'
+import './styleMobile.css'
+
 import faceIcon from '../../img/face-icon.svg'
 import instaIcon from '../../img/insta-icon.svg'
 import linkeIcon from '../../img/linkedin-icon.svg'

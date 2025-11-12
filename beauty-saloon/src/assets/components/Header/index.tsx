@@ -1,11 +1,20 @@
 import { Link } from 'react-scroll'
+import menu  from '../../img/menu-icon.svg'
+import { useState } from 'react'
 
 import './style.css'
+import './styleMobile.css'
 import { Button } from '../Buttons/ButtonDefault'
 
 export function Header(){
+    const [menuOpen, setMenuOpen] = useState(false) 
+
+    function toggleMenu(){
+        setMenuOpen(!menuOpen)
+    }
+
     return(
-        <header className='header'>
+        <header className='container-header'>
             <div className='container-sessoes'>
                 <Link 
                 to="inicio" 
@@ -18,8 +27,9 @@ export function Header(){
                         <p>BEAUTY SALON</p>
                     </div>                            
                 </Link>
+                <img src={menu} className='menu' onClick={toggleMenu}/>
                 
-                <nav>
+                <nav className={`menu-mobile ${menuOpen ? 'ativo' : ''}`}>
                     <ul className='lista-opcoes'>
                         <li>
                             <Link
@@ -75,8 +85,7 @@ export function Header(){
 
                 <div className='sessao-botao'>
                     <Button 
-                    titulo='Agende seu Horario'/>
-                    
+                    titulo='Agende seu Horario'/> 
                 </div>
             </div>            
         </header>

@@ -1,4 +1,6 @@
 import './style.css'
+import './styleMobile.css'
+
 import { CardService } from '../../Cards/CardsService'
 import  ImgService  from '../../../img/service1.jpeg'
 
@@ -12,6 +14,7 @@ export function SectionServices(){
 
             <div className='container-cards'>
                 <CardService 
+                className='card-mobile'
                 serviceTittle='Alisamento a laser' 
                 subtittle='Alisamento super moderno' 
                 description='Alisamento a base de laser com raios uv' 
@@ -19,6 +22,7 @@ export function SectionServices(){
                 imgService1={ImgService}/>
                 
                 <CardService 
+                className='card-mobile'
                 serviceTittle='Alisamento a laser' 
                 subtittle='Alisamento super moderno' 
                 description='Alisamento a base de laser com raios uv' 
@@ -26,6 +30,7 @@ export function SectionServices(){
                 imgService1={ImgService}/>
 
                 <CardService 
+                className='card-mobile'
                 serviceTittle='Alisamento a laser' 
                 subtittle='Alisamento super moderno' 
                 description='Alisamento a base de laser com raios uv' 

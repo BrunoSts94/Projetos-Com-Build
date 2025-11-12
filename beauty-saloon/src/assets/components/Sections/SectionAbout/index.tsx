@@ -1,4 +1,6 @@
 import './style.css'
+import './styleMobile.css'
+
 import { Button } from '../../Buttons/ButtonDefault'
 import imgSup1 from '../../../img/img2.jpeg'
 import imgSup2 from '../../../img/img3.jpg'
@@ -27,10 +29,11 @@ export function SectionAbout(){
                 </div>
 
                 <div className='container-section-about-images'> 
-                        <img src={ imgInf1 } className='img-about-inf'/>
-                        <img src={ imgInf2 } className='img-about-inf'/>
                         <img src={ imgSup1 } className='img-about-sup'/>
-                        <img src={ imgSup2 } className='img-about-sup'/>
+                        <img src={ imgSup2 } className='img-about-sup img-hide-mobile'/>
+                        <img src={ imgInf1 } className='img-about-inf img-hide-mobile'/>
+                        <img src={ imgInf2 } className='img-about-inf img-hide-mobile'/>
+                        
                 </div>
             </div>
         </section>

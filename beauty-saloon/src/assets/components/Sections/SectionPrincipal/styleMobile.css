@@ -1,0 +1,26 @@
+@media screen and (max-width: 940px){
+    .container-principal{
+        padding: 240px 0 100px 0;
+    }
+
+    .container-infos{
+        width: 90%;
+    }
+
+    .container-infos h1{
+        font-size: 2rem;
+    }
+
+    .container-infos h2{
+        font-size: 1.4rem;
+    }
+
+    .container-infos p{
+        font-size: 0.9rem;
+    }
+
+    .btn-personalizado{
+        width: 160px;
+        padding: 1rem;
+    }
+}

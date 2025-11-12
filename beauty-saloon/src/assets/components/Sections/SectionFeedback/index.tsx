@@ -1,4 +1,5 @@
 import './style.css'
+import './styleMobile.css'
 import { useState } from 'react'
 import { CardFeedback } from '../../Cards/CardFeedback'
 
@@ -22,6 +23,7 @@ export function SectionFeedback(){
                 
             <div className='container-feedback-card'>
                 <CardFeedback 
+                className='card-feedback'
                 text={feedbacks[feedback].text}
                 name={feedbacks[feedback].name}
                 service={feedbacks[feedback].service}/>

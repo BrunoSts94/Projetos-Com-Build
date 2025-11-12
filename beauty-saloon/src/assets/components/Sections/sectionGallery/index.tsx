@@ -1,4 +1,5 @@
 import './style.css'
+import './styleMobile.css'
 import { useState } from 'react'
 
 //Components
@@ -54,16 +55,19 @@ export function SectionGallery(){
                 <p>Veja os resultados incríveis que nossas clientes tiveram com nossos tratamentos experts</p>
                 <div className='container-buttons-gallery'>
                     <ButtonGallery 
+                    className='btn-gallery-alt'
                     titulo='Todos os procedimentos'
                     isActive={ categoria === 'todos' }
                     onClick={() => setCategoria('todos')}/>
 
                     <ButtonGallery 
+                    className='btn-gallery-alt'
                     titulo='Alisamento a Laser'
                     isActive={ categoria === 'alisamento' }
                     onClick={() => setCategoria('alisamento')}/>
 
                     <ButtonGallery 
+                    className='btn-gallery-alt'
                     titulo='Design de Sobrancelhas'
                     isActive={ categoria === 'sobrancelhas' }
                     onClick={() => setCategoria('sobrancelhas')}/>
@@ -73,6 +77,7 @@ export function SectionGallery(){
             <div className='container-section-cards-gallery'>
                 {itemsToShow.map((item, idx) => (
                     <CardGallery
+                    className='card-gallery'
                     key={idx}
                     beforeImg={item.before}
                     afterImg={item.after}

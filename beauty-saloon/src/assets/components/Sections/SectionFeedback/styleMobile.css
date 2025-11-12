@@ -1,0 +1,43 @@
+@media screen and (max-width: 940px){
+    .container-section-feedback{
+        padding: 70px 0;
+        gap: 2rem;
+    }
+
+    .container-feedback-texts{
+        width: 85%;
+        text-align: center;
+    }
+
+    .container-feedback-texts h2{
+        font-size: 1.4rem;
+    }
+
+    .container-feedback-texts p{
+        font-size: 0.9rem;
+    }
+
+    .container-feedback-card{
+        width: 85%;
+    }
+
+    .card-feedback{
+        width: 100%;
+        text-align: center;
+        padding: 1.5rem !important;
+        height: auto;
+    }
+
+    .card-feedback p{
+        font-size: 1.3rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .card-feedback h4{
+        font-size: 0.9rem !important;
+    }
+
+     .card-feedback span{
+        font-size: 0.8rem !important;
+    }
+}

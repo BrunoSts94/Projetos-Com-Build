@@ -1,4 +1,5 @@
 import './style.css'
+import './styleMobile.css'
 
 //components
 import { Button } from '../../Buttons/ButtonDefault'

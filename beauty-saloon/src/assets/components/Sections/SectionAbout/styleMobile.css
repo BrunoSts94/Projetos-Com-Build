@@ -1,0 +1,52 @@
+@media screen and (max-width: 940px){
+    .section-about{
+        padding: 70px 0;
+    }
+
+    .container-section-about{
+        width: 90%;
+        gap: 0.7rem;
+    }
+
+    .container-section-about-texts{
+        width:50%;
+        gap: 1rem;
+    }
+
+    .container-section-about-texts h2{
+        font-size: 1.4rem;
+    }
+
+    .container-section-about-texts p{
+        font-size: 0.9rem;
+    }
+
+    .section-about-aditional-infos h4{
+        font-size: 1.4rem;
+    }
+
+    .section-about-aditional-infos p{
+        font-size: 0.8rem;
+    }
+
+    .btn-about-contact{
+        width: 8rem;
+        padding: 0.8rem;
+    }
+
+    .container-section-about-images{
+        width: calc(50% - 0.7rem);
+    }
+
+    .container-section-about-images img{
+        width: 100%;
+        height: 50%;
+        border-radius: 1rem;
+        gap: 0;
+        
+    }
+
+    .img-hide-mobile{
+        display: none;
+    }
+}

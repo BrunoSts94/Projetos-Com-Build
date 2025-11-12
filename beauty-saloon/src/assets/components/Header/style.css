@@ -1,4 +1,4 @@
-.header{
+.container-header{
     position: fixed;
     color: #474747;
     padding: 25px;
@@ -7,7 +7,7 @@
     z-index: 1;
 }
 
-.header h2, p{
+.container-header h2, p{
     font-weight: 300;
 }
 
@@ -17,6 +17,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15rem;
+}
+
+.menu{
+    display: none;
+    color: #474747;
 }
 
 .active {

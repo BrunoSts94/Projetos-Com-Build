@@ -6,18 +6,20 @@ type Props = {
     description: string
     price: string
     imgService1: string
+    className?: string
 } 
 
-export function CardService({ serviceTittle, subtittle, description, price, imgService1}: Props){
+export function CardService({ serviceTittle, subtittle, description, price, imgService1, className}: Props){
     return (
-        <div className='container-card-service'>
+        <div 
+        className={`container-card-service ${className ?? ''}`}>
             <div className='container-img'>
                 <figure className='service-thumb'>
                     <img src={imgService1} alt='imagem-do-servico'/>
                 </figure>
             </div>
             
-            <div >
+            <div className='container-card-infos'>
                 <div className='container-infos-services'>
                     <h3>{serviceTittle}</h3>
                     <span>{subtittle}</span>
