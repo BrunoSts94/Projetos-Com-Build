@@ -1,6 +1,8 @@
 @media screen and (max-width: 940px){
     .container-header{
         padding:0;
+        position: fixed;
+        background-color: #faf7f8ef;
     }
     
     .container-sessoes{

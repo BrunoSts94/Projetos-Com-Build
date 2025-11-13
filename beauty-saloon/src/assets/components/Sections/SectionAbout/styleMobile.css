@@ -4,25 +4,28 @@
     }
 
     .container-section-about{
-        width: 90%;
-        gap: 0.7rem;
+        width: 85%;
     }
 
-    .container-section-about-texts{
-        width:50%;
-        gap: 1rem;
+    .section-superior-texts{
+        align-items: center;
+        width: 100%;
     }
 
-    .container-section-about-texts h2{
+    .section-superior-texts h2{
         font-size: 1.4rem;
+        margin-bottom: 1rem;
     }
 
-    .container-section-about-texts p{
+    .section-superior-texts p{
+        text-align: center;
         font-size: 0.9rem;
+        font-weight: 300;
+        color: #474747
     }
 
-    .section-about-aditional-infos h4{
-        font-size: 1.4rem;
+    .container-about-image{
+        display: none;
     }
 
     .section-about-aditional-infos p{
@@ -32,21 +35,6 @@
     .btn-about-contact{
         width: 8rem;
         padding: 0.8rem;
-    }
-
-    .container-section-about-images{
-        width: calc(50% - 0.7rem);
-    }
-
-    .container-section-about-images img{
-        width: 100%;
-        height: 50%;
-        border-radius: 1rem;
-        gap: 0;
-        
-    }
-
-    .img-hide-mobile{
-        display: none;
+        margin-top: 2rem;
     }
 }
